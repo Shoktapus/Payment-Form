@@ -13,38 +13,63 @@
 <body>
     <div class="container-fluid p-3">
         <form>
-
+            <!--First box-->
             <div class="row">
                 <h3>
                     Payment Form Example
                 </h3>
             </div>
+            <!--Second box-->
             <div class="row">
                 <div class="col-12 p-3 my-3">
                     <p style="color:darkred">
                         Some fields are missing
                     </p>
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="card# class=" form-label">Card#</label>
+
+                    <!-- First row is card info -->
+                    <div class="row p-1 ">
+                        <div class="col-5">
+                            <label for="card#" class=" form-label">Card#</label>
                             <input type="tel" class="form-control" id="Card#">
                         </div>
-                        <div class="col-3 offset-1">
+                        <div class="col-4">
                             <label for="CVC#" class=" form-label">CVC#</label>
                             <input type="tel" class="form-control" id="CVC#">
                         </div>
-                        <div class="col-2 offset-1">
+                        <div class="col-3">
                             <label for="Amount" class=" form-label">Amount</label>
                             <input type="tel" class="form-control" id="Amount">
                         </div>
-                        <div class="row">
-                            <div class="col-6 offset 1">
-                                <label for="Amount" class=" form-label">Amount</label>
-                                <input type="tel" class="form-control" id="Amount">
+
+                        <!-- Second row is names -->
+                        <div class="row p-1">
+                            <div class="col-6">
+                                <label for="FirstName" class=" form-label">First Name</label>
+                                <input type="text" class="form-control" id="FirstName">
+                            </div>
+                            <div class="col-6">
+                                <label for="LastName" class=" form-label">Last Name</label>
+                                <input type="text" class="form-control" id="LastName">
                             </div>
                         </div>
 
-                        <div class=" row">
+                        <!-- Third row is address -->
+                        <div class="row p-1">
+                            <div class="col-5">
+                                <label for="card#" class=" form-label">Card#</label>
+                                <input type="tel" class="form-control" id="Card#">
+                            </div>
+                            <div class="col-4">
+                                <label for="CVC#" class=" form-label">CVC#</label>
+                                <input type="tel" class="form-control" id="CVC#">
+                            </div>
+                            <div class="col-3">
+                                <label for="Amount" class=" form-label">Amount</label>
+                                <input type="tel" class="form-control" id="Amount">
+                            </div>
+
+                         <!-- Last row is pics and a message -->
+                        <div class="row p1">
                             <div class="col-6 offset-1">
                                 <p>
                                     We accept
@@ -56,8 +81,9 @@
                                 </ul>
                                 </p>
                             </div>
-
                         </div>
+
+                         <!-- Buttons and Footer -->
                     </div>
 
                 </div>
